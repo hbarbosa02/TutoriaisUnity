@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ChasingTheTarget : MonoBehaviour {
 
-    public Vector2 _target;//Alvo
+    public GameObject _target;//Alvo
     public float _speed = 5;//velocidade do movimento
 
     // Use this for initialization
@@ -23,7 +23,7 @@ public class ChasingTheTarget : MonoBehaviour {
         if(_target != null)
         {
             //Move o objeto que possua esse script para o alvo
-            gameObject.transform.position = Vector3.MoveTowards(transform.position, _target, _speed);
+            gameObject.transform.position = Vector3.MoveTowards(transform.position, _target.transform.position, _speed);
         }
     }
 }

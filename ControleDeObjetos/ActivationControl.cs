@@ -6,6 +6,7 @@ using System.Collections;
 public class ActivationControl : MonoBehaviour {
 
     bool flag = false;//Sinal
+
 	// Use this for initialization
 	void Start () {
 
@@ -15,6 +16,7 @@ public class ActivationControl : MonoBehaviour {
 	void Update () {
 	
 	}
+
     //Função usada pelo botão para ativar ou desativar um objeto
     public void ACtivation(GameObject Object)
     {
