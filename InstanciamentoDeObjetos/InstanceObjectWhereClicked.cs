@@ -13,7 +13,11 @@ public class InstanceObjectWhereClicked : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Condição para o instanciamento
-        if (Input.GetMouseButtonDown(0)) { InstanceObject(); }
+        if (Input.GetMouseButtonDown(0)) 
+        { 
+        	InstanceObject(); 
+        	
+        }
 	}
     //Função que vai instanciar o objeto na posição que for clicado na tela
     void InstanceObject()
