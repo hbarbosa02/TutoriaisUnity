@@ -30,7 +30,6 @@ public class MovementsArrow : MonoBehaviour
     //Para Cima
     public void Up() {
         Debug.Log("Up");
-        while(1 == 1)
             gameObject.transform.Translate(new Vector3(0, _speed, 0));
     }
     //Para Baixo
